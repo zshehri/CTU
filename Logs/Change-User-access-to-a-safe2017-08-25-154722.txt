@@ -1,0 +1,1 @@
+2017/08/25 15:47:23-[SUCCESS] User user1 permissions were changed to Owner in api_test_safe1

@@ -1,0 +1,8 @@
+2017/08/25 15:49:36-[ERROR] Couldn't add user1 to API_test_safe1
+2017/08/25 15:49:36-[SUCCESS] User user1 permissions were changed to Owner in API_test_safe1
+2017/08/25 15:49:36-[SUCCESS] User user2 permissions were changed to User in API_test_safe1
+2017/08/25 15:49:37-[SUCCESS] User user3 permissions were changed to Owner in API_test_safe1
+2017/08/25 15:49:37-[SUCCESS] User user2 permissions were changed to User in API_test_safe2
+2017/08/25 15:49:38-[INFO] User user3 does not exist in API_test_safe2, no need to remove access
+2017/08/25 15:49:38-[SUCCESS] User user1 permissions were changed to User in API_test_safe2
+2017/08/25 15:49:38-[SUCCESS] User user2 permissions were changed to Owner in API_test_safe2
