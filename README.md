@@ -109,7 +109,7 @@ Ziyad Alshehri
 ### Contributing:
 
 - Fork the repo
-- Update [psPAS](https://github.com/pspete/psPAS) submodule to the latest commit (review [compatibility](https://github.com/pspete/psPAS#CyberArk_Version_Compatibility))
+- Use the updated [psPAS](https://github.com/pspete/psPAS) (review [compatibility](https://github.com/pspete/psPAS#CyberArk_Version_Compatibility))
  - Push your changes to your fork
  - Write a [good commit message](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
  - Submit a pull request
