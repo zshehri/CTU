@@ -32,12 +32,12 @@ CyberArk Terminal Utility (CTU) utilizes REST API to create a terminal interface
 - Establishing a secure connection to your PVWA, and credentials will be handled as a PSCredentials Object (following the [best practice](https://social.technet.microsoft.com/wiki/contents/articles/4546.working-with-passwords-secure-strings-and-credentials-in-windows-powershell.aspx))
 - Navigating through common options with a simple menu.
 - Importing bulk changes from an Excel file (```import-csv``` cmdlet used for .csv, custom function created for .xls & .xlsx)
-- Confirming the number of changes before execution.
+- Confirming the number of changes before executing them.
 - Generating logs to the [Logs](https://github.com/zshehri/CTU/tree/master/Logs) folder of all changes made via CTU.
 
 ## Requirements
 
-- PowerShell version 3.0 or above - (check your PS version using ```$PSVersionTable.PSVersion``` in PowerShell), install/update PowerShell using this [guide](https://docs.microsoft.com/en-us/powershell/scripting/setup/installing-windows-powershell)
+- PowerShell version 4.0 or above - (check your PS version using ```$PSVersionTable.PSVersion``` in PowerShell), install/update PowerShell using this site [Windows Management Framework](https://www.microsoft.com/en-us/download/details.aspx?id=54616)
 - CyberArk version 9.7 or above - update using the official [CyberArk documentation](https://www.cyberark.com/resources) (may the force be with you!)
 - Enable CyberArk PAS REST API/Web Service
 - Make sure you have the appropriate permissions to the Vaults/Safes you want to change
@@ -45,7 +45,7 @@ CyberArk Terminal Utility (CTU) utilizes REST API to create a terminal interface
 
 ## Getting Started:
 
-- Download it to your computer (using the green button above) or
+- Download it on your computer (using the green button above) or
   clone it using the following command:
 ```bash
 git clone https://github.com/zshehri/CTU
@@ -56,17 +56,20 @@ git clone https://github.com/zshehri/CTU
 git pull
 ```
 
-Open PowerShell, and run the script:
+To run `CTU.ps1`, you'd probably need to allow running scripts downloaded form the internet for this PowerShell session.
+
+Open a new PowerShell as an admin, and paste the following command:
+```powershell
+powershell -ExecutionPolicy ByPass
+```
+
+and then run the script:
 ```PowerShell
-C:\path to script folder\CTU\CTU.ps1
+C:\path to CTU folder\CTU.ps1
 ```
 
-If you encountered errors related to execution policy, you may need to allow running scripts downloaded from the internet [here's why & how](https://blog.netspi.com/15-ways-to-bypass-the-powershell-execution-policy/)
+As soon as you're done from CTU, close the session to revert back to same ExecutionPolicy. (This workaround is the easiest, but not the best. [Here's why?](https://blog.netspi.com/15-ways-to-bypass-the-powershell-execution-policy/))
 
-(**TL;DR**) Open cmd.exe and paste this line:
-```
-powershell.exe -noprofile -executionpolicy bypass -file C:\path to script folder\CTU\CTU.ps1
-```
 
 ## Usage:
 
@@ -90,7 +93,7 @@ Review the code before running it, you'll find tags that would help you customiz
 
 ## Disclaimer:
 
-**Please note: this is an unofficial project and still under development, use it at your own discretion!**
+**Please note: this is an unofficial project and still under development!**
 
 *Be aware that CTU is run at your own risk and while every script has been written with the intention of minimizing the potential for unintended consequences, the author and contributors cannot be held responsible for any misuse or script problems.*
 
