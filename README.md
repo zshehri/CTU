@@ -8,7 +8,7 @@ CyberArk Terminal Utility (CTU) is a terminal interface that utilizes REST API t
   <img src="https://github.com/zshehri/CTU/blob/master/Screenshots/cyberark_demo.gif">
 </p>
 
-### Latest Updates
+### Latest Updates (also on this [Reddit post](https://redd.it/704q2q))
 
 - First version released on 8/25/2017 (v1.0), with a limited functionality to manage safe permissions (see [Current Functions](https://github.com/zshehri/CTU#Current_Functions) below).
 - If you want to test this version, choose number 3 (*Safe Permissions Management*) from the main menu, and choose any option from the submenu.
@@ -111,6 +111,7 @@ Ziyad Alshehri
 
 ### Contributing:
 
+- Review comments on this [Reddit post](https://redd.it/704q2q)
 - Fork the repo
 - Use the updated [psPAS](https://github.com/pspete/psPAS) (review [compatibility](https://github.com/pspete/psPAS#CyberArk_Version_Compatibility))
  - Push your changes to your fork
