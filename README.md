@@ -8,7 +8,8 @@ CyberArk Terminal Utility (CTU) is a terminal interface that utilizes REST API t
   <img src="https://github.com/zshehri/CTU/blob/master/Screenshots/cyberark_demo.gif">
 </p>
 
-### Latest Updates (also on this [Reddit post](https://redd.it/704q2q))
+### Latest Updates
+*(follow this [Reddit post](https://redd.it/704q2q))*
 
 - First version released on 8/25/2017 (v1.0), with a limited functionality to manage safe permissions (see [Current Functions](https://github.com/zshehri/CTU#Current_Functions) below).
 - If you want to test this version, choose number 3 (*Safe Permissions Management*) from the main menu, and choose any option from the submenu.
@@ -58,7 +59,7 @@ git pull
 
 To run `CTU.ps1`, you'd probably need to allow running scripts downloaded form the internet for this PowerShell session.
 
-Open a new PowerShell as an admin, and paste the following command:
+Open a new PowerShell as an admin, and paste the following command to allow running the script:
 ```powershell
 powershell -ExecutionPolicy ByPass
 ```
@@ -68,7 +69,7 @@ and then run the script:
 C:\path to CTU folder\CTU.ps1
 ```
 
-As soon as you're done from CTU, close the session to revert back to same ExecutionPolicy. (This workaround is the easiest, but not the best. [Here's why?](https://blog.netspi.com/15-ways-to-bypass-the-powershell-execution-policy/))
+As soon as you're done from CTU, close the current PowerShell session to revert back to same ExecutionPolicy. (This workaround is the easiest, read more about other [options](https://blog.netspi.com/15-ways-to-bypass-the-powershell-execution-policy/)).
 
 
 ## Usage:
@@ -95,15 +96,9 @@ Review the code before running it, you'll find tags that would help you customiz
 
 **Please note: this is an unofficial project and still under development!**
 
-*Be aware that CTU is run at your own risk and while every script has been written with the intention of minimizing the potential for unintended consequences, the author and contributors cannot be held responsible for any misuse or script problems.*
+*Be aware that CTU is run at your own risk and while the script has been written with the intention of minimizing the potential for unintended consequences, the author and contributors cannot be held responsible for any misuse or script problems.*
 
-*THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.*
+*THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*
 
 ### Author:
 
@@ -111,7 +106,7 @@ Ziyad Alshehri
 
 ### Contributing:
 
-- Review comments on this [Reddit post](https://redd.it/704q2q)
+- Review known [issues](https://github.com/zshehri/CTU/issues), and comments on this [Reddit post](https://redd.it/704q2q)
 - Fork the repo
 - Use the updated [psPAS](https://github.com/pspete/psPAS) (review [compatibility](https://github.com/pspete/psPAS#CyberArk_Version_Compatibility))
  - Push your changes to your fork
