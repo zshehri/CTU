@@ -9,7 +9,7 @@ CyberArk Terminal Utility (CTU) is a terminal interface that utilizes REST API t
 </p>
 
 ### Latest Updates
-*(follow this [Reddit post](https://redd.it/704q2q))*
+######(follow this [Reddit post](https://redd.it/704q2q))
 
 - First version released on 8/25/2017 (v1.0), with a limited functionality to manage safe permissions (see [Current Functions](https://github.com/zshehri/CTU#Current_Functions) below).
 - If you want to test this version, choose number 3 (*Safe Permissions Management*) from the main menu, and choose any option from the submenu.
@@ -89,8 +89,8 @@ Review the code before running it, you'll find tags that would help you customiz
   3. System: All permissions are granted (meant for system accounts, such as PVWA default accounts ...)
 
 - These roles will be imported from an excel file, following the [template](https://github.com/zshehri/CTU/blob/master/Templates/Bulk_permission_changes.csv).
-- You can change these roles/permissions as you like to fit your needs (from [here](https://github.com/zshehri/CTU/blob/a4a8045b1e6d7f701072e12415dbb4568e66923b/CTU.ps1#L133))
-- The script applied permission changes to over 500 users from an excel file and worked like a charm!
+- You can change these roles/permissions as you like to fit your requirements ( `Set-AssignSafeMember` function)
+- The script worked like a charm, and successfully applied permission changes to over 500 users from an excel file.
 
 ## Disclaimer:
 
