@@ -89,7 +89,7 @@ Review the code before running it, you'll find tags that would help you customiz
   3. System: All permissions are granted (meant for system accounts, such as PVWA default accounts ...)
 
 - These roles will be imported from an excel file, following the [template](https://github.com/zshehri/CTU/blob/master/Templates/Bulk_permission_changes.csv).
-- You can change these roles/permissions as you like to fit your requirements ( `Set-AssignSafeMember` function)
+- You can change these roles/permissions as you like to fit your requirements (`Set-AssignSafeMember` function)
 - The script worked like a charm, and successfully applied permission changes to over 500 users from an excel file.
 
 ## Disclaimer:
